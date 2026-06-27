@@ -7,8 +7,9 @@ using namespace std;
 int main(){
     
     vector< int > arr = {5,3,1,4,2,7,6,1,4,9,5};
-
-    for(int i=0; i<arr.size();i++){
+  
+    // selection sort
+    for(int i=0; i<arr.size()-1;i++){
         int smallest_ele = i;
         for(int j=i; j<arr.size(); j++){
             if(arr[j]<arr[smallest_ele]){
