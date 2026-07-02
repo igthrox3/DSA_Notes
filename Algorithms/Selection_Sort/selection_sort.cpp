@@ -1,4 +1,4 @@
- #include <iostream>
+#include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
@@ -9,6 +9,8 @@ int main(){
     vector< int > arr = {5,3,1,4,2,7,6,1,4,9,5};
   
     // selection sort
+    //Time complexity :- n*n
+    //it is unsatble sort
     for(int i=0; i<arr.size()-1;i++){
         int smallest_ele = i;
         for(int j=i; j<arr.size(); j++){
