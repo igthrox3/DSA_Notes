@@ -1,9 +1,3 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-
-//Time Complexity:- logn
-
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -25,13 +19,3 @@ public:
     return target_idx;
     }
 };
-
-int main(){
-    vector<int> nums = {1,4,6,8,3,65,89,3,2};  // Create the vector
-    Solution s1;                                 // Create object (default constructor)
-    int target = 3;
-    int result = s1.search(nums, target);        // Call search()
-    
-    cout << "Target found at index: " << result << endl;
-    return 0;
-}
