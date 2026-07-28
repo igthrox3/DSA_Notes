@@ -1,1 +1,2 @@
 1)approach two pointers
+2)three poitners 
